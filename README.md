@@ -10,6 +10,7 @@ Make sure you edit the config section in the wd_loot_init.lua file
 There you can change the parameter of the chance of drop an item, and also edit items that may drop from the lootbox (You can only add an entity, or weapon currently). you may also choose what model appears for each lootable item
 
 WD_Loot.RefreshTime = 300 -- Seconds before a loot container refreshes
+
 WD_Loot.GlowDistance = 500 -- Units for glow to appear
 
 WD_Loot.Tiers = {
