@@ -326,7 +326,7 @@ net.Receive("WD_TakeLoot", function(_, ply)
     -- If container empty
     if #ent.WD_LootItems <= 0 then
         ent:SetNWBool("WD_HasLoot", false)
-        ent.WD_NextRefresh = CurTime() + 1200
+        ent.WD_NextRefresh = CurTime() + 600
 
         net.Start("WD_CloseLoot")
         net.Send(ply)
